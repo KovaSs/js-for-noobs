@@ -9,7 +9,7 @@ function myApp(name, age) {
 
 		for (let i = 0; i < skills.length; i++) {
 				// Write "I'm know <br>"
-			let skillsText = "I know " + skills[i] + "<br>";
+			let skillsText = `I know ${skills[i]} <br>`;
 			document.write(skillsText);
 			console.log(skillsText);
 				
